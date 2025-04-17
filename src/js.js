@@ -350,3 +350,28 @@ const reverseWords = (str) => {
 //  getData.addEntries("first sentence")
 //  getData.addEntries("second sentence")
 //  console.log(getData.readEntries())
+
+// const users = [
+//   {name:'ananth',age:25},
+//   {name:'Bob',age:30},
+//   {name:'Alica',age:25}
+//   ]
+//   const grouped = Object.groupBy(users,user => user.age)
+
+//   const {resolve,reject,promise} =Promise.withResolvers()
+//   setTimeout(() => resolve('Hello Ananth'),3000)
+//   promise.then(alert)
+
+//   const set1 = new Set([2,3,4])
+//   const set2 = new Set([2,5,6,3])
+//   const intersection  = set1.intersection(set2)
+//   const combined  = set1.union(set2)
+//   const diff  = set2.difference(set1)
+//   const sm_dif  = set1.symmetricDifference(set2)
+
+//   const map =  new WeakMap()
+//   const obj = {}
+//   map.set(obj, 56)
+//   console.log(map.get(obj),'map')
+//   console.log(sm_dif,'sm_dif');
+
